@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#VERSION: 1.2
+#VERSION: 1.3
 #AUTHORS: Joost Bremmer (toost.b@gmail.com)
 #
 #  This program is free software: you can redistribute it and/or modify
@@ -84,6 +84,12 @@ class nyaasi(object):
             """Tell the parser what to do with which tags."""
             if tag == 'a':
                 self.start_a(attr)
+            elif tag == 'td' and self.td_counter == 2:
+                try:
+                    attr_dict = dict(attr)
+                    self.curr['pub_date'] = attr_dict.get('data-timestamp')
+                except KeyError:
+                    self.curr['pub_date'] = -1
 
         def handle_endtag(self, tag):
             """Handle the closing of table cells."""
