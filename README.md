@@ -15,7 +15,7 @@ Installation
 
 ### Linuxtracker
 Simply download the [plugin file](engines/linuxtracker.py) or copy the
-following [link](https://github.com/MadeOfMagicAndWires/qBit-plugins/raw/main/engines/linuxtracker.py).
+following [link](https://github.com/avalitan/qBit-plugins/raw/main/engines/linuxtracker.py).
 
 After you've done this you can add this plugin to qBittorrent by going:
 
@@ -29,8 +29,8 @@ Or by manually copying the `bakabt.py` to the following location:
   * Mac: ``~/Library/Application Support/qBittorrent/nova/engines/linuxtracker.py`
   * Windows: `C:\Documents and Settings\username\Local Settings\Application Data\qBittorrent\nova\engines\linuxtracker.py`
 
-### Nyaa.si
-Take [this](https://github.com/MadeOfMagicAndWires/qBit-plugins/raw/main/engines/nyaasi.py)
+### Nyaa.land
+Take [this](https://github.com/avalitan/qBit-plugins/raw/main/engines/nyaasi.py)
 file and follow the steps above.
 
 #### Downloading .torrent files instead of magnet links
