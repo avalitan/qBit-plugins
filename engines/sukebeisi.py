@@ -30,7 +30,7 @@ except:
 class sukebeisi(object):
     """Class used by qBittorrent to search for torrents"""
 
-    url = 'https://sukebei.nyaa.si'
+    url = 'https://sukebei.nyaa.land'
     name = 'Sukebei (Nyaa)'
     # defines which search categories are supported by this search engine
     # and their corresponding id. Possible categories are:
