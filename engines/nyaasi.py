@@ -32,7 +32,7 @@ except ModuleNotFoundError:
 class nyaasi(object):
     """Class used by qBittorrent to search for torrents."""
 
-    url = 'https://nyaa.si'
+    url = 'https://nyaa.land'
     name = 'Nyaa.si'
 
     # Whether to use magnet links or download torrent files ###################
